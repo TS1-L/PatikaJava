@@ -5,7 +5,6 @@ public class CombinationCalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        // Get values of n and r from the user
         System.out.print("Enter the value of n: ");
         int n = input.nextInt();
 
