@@ -31,7 +31,7 @@ public class Fighter {
     }
 
     public boolean dodge() {
-        double randomValue = Math.random() * 100;  // 0.0 to 99.9
+        double randomValue = Math.random() * 100;  
         return randomValue <= this.dodge;
     }
 }
