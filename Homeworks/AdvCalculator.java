@@ -107,7 +107,7 @@ public class AdvCalculator {
         System.out.println("Result : " + result);
     }
 
-    // New method for modulus operation
+    
     static void mod() {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter the number to take the modulus of :");
@@ -119,7 +119,7 @@ public class AdvCalculator {
         System.out.println("Result : " + result);
     }
 
-    // New method for rectangle area and perimeter calculation
+    
     static void rectangle() {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter the length of the rectangle :");
