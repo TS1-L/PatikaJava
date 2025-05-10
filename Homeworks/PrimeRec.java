@@ -19,7 +19,7 @@ public class PrimeRec {
 
     public static boolean isPrime(int number, int divisor) {
         if (number <= 2) {
-            return (number == 2); // 2 is prime, numbers less than 2 are not
+            return (number == 2); 
         }
         if (number % divisor == 0) {
             return false;
